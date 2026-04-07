@@ -3,9 +3,9 @@ import java.util.Scanner;
 class switchStatement {
     public static void main(String[] args) {
         
-        Scanner hr = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter the value for day: ");
-        int day = hr.nextInt();
+        int day = sc.nextInt();
 
         switch(day) {
             case 1: 
@@ -39,7 +39,7 @@ class switchStatement {
             default:
                 System.out.println("Invalid day");
                 
-            hr.close();
+            sc.close();
         }
     }
 }
