@@ -1,6 +1,4 @@
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class Codechef
 {
@@ -17,7 +15,5 @@ class Codechef
 		}
         
         System.out.println(cost);
-        
-        hr.close();
 	}
 }
