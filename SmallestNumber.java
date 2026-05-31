@@ -1,3 +1,5 @@
+//Find Smallest of Two Numbers 
+
 import java.util.Scanner;
 
 public class SmallestNumber {
