@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FuctionsTutorial {
+public class FunctionsTutorial {
 
     public static int printHelloWorld() {
         System.out.println("Hello World");
