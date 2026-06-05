@@ -25,7 +25,7 @@ public class ConditionalPercentage {
         double total = m1 + m2 + m3 + m4 + m5 + m6;
         double percentage = (total / 600) * 100;
 
-        System.out.printf("\nTotal of all the six subjects: %.1f%nand their percentage is: %.2f%n", total, percentage);
+        System.out.printf("%nTotal of all the six subjects: %.1f%nand their percentage is: %.2f%n", total, percentage);
         
         double min = m1;
 
@@ -52,7 +52,7 @@ public class ConditionalPercentage {
         double top5Total = total - min;
         double top5percentage = (top5Total / 500) * 100;
 
-        System.out.printf("\nTotal of top 5 subjects: %.1f%nand their percentage is: %.2f%n", top5Total, top5percentage);
+        System.out.printf("%nTotal of top 5 subjects: %.1f%nand their percentage is: %.2f%n", top5Total, top5percentage);
 
         hr.close();
     }    
