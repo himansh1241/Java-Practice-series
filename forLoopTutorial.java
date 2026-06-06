@@ -8,6 +8,10 @@ public class forLoopTutorial {
             System.out.println("Value of i: " + i);
         }
 
+        for (int i = 1; i <=4; i++) {
+            System.out.println("Himanshu..");
+        }
+
         hr.close();
     }
 }
