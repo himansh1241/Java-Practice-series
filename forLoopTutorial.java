@@ -4,7 +4,6 @@ public class forLoopTutorial {
     public static void main(String[] args) {
         Scanner hr = new Scanner(System.in);
 
-        int i = 1;
 
         // for (int i = 1; i <= 5; i++) {
         //     System.out.println("Value of i: " + i);
@@ -18,12 +17,20 @@ public class forLoopTutorial {
         //     System.out.println(i);
         // }
 
-        for (i = 1; i <= 4; i++) {
-            for (int j = 1; j <= 4; j++) {
-                System.out.print("* ");
+        // for (i = 1; i <= 4; i++) {
+        //     for (int j = 1; j <= 4; j++) {
+        //         System.out.print("* ");
+        //     }
+        //     System.out.println();
+        // }
+
+
+        for (int i = 1; i <= 3; i++) {
+            for (int j = 1; j <= 3; j++) {
+                System.out.println("i = " + i + ", j = " + j);
             }
-            System.out.println();
         }
+        
         hr.close();
     }
 }
