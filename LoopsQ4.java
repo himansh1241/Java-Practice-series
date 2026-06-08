@@ -10,7 +10,7 @@ public class LoopsQ4 {
         String name = hr.nextLine();
 
         for (int i = 1; i <= 100; i++){
-            System.out.println(name);
+            System.out.println(i + ". " + name);
         }
 
         hr.close();
