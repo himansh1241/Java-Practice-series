@@ -1,30 +1,15 @@
-import java.util.Scanner;
-
 public class DummyProgram {
 
-    public static boolean isPrime(int n) {
-        if(n <= 1) {
-            return false;
-        }
+    public static int sum(int a, int b) {
+        return a + b;
+    }
 
-        for(int i = 2; i <= Math.sqrt(n); i++) {
-            if(n % i == 0) {
-                return false;
-            }
-        }
-
-        return true;
+    public static int sum(int a, int b, int c) {
+        return a + b + c;
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        int n = sc.nextInt();
-
-        if(isPrime(n)) {
-            System.out.println("Prime");
-        } else {
-            System.out.println("Not Prime");
-        }
+        System.out.println(sum(10, 20));
+        System.out.println(sum(10, 20, 30));
     }
 }
