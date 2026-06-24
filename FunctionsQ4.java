@@ -1,4 +1,4 @@
-// Function overloading
+// Function overloading for intger datatypes
 
 import java.util.Scanner;
 
