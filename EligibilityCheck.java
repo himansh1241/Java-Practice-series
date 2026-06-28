@@ -1,3 +1,5 @@
+// Take age input and print if he/she is eligible to vote or not
+
 import java.util.Scanner;
 
 public class EligibilityCheck {
@@ -11,4 +13,4 @@ public class EligibilityCheck {
 
         hr.close();
     }
-} 
+}
