@@ -18,12 +18,20 @@ public class FunctionsOverloadingQ3 {
 
         return true;
     }
+
+    public static void primesInRange(int n) {
+        for(int i = 2; i <= n; i++) {
+            if (isPrime(i)) {
+                System.out.print(i + " ");
+            }
+        }
+    }
     public static void main(String[] args) {
 
         Scanner hr = new Scanner(System.in);
         System.out.print("Enter any no: ");
         int n = hr.nextInt();
 
-        System.out.println(isPrime(n));
+        primesInRange(n);
     }
 }
